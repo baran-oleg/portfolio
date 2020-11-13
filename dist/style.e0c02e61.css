@@ -275,8 +275,15 @@ body {
   width: 450px;
   height: 400px;
 }
-.about__content {
-  flex-basis: 500px;
+@media screen and (max-width: 767px) {
+  .about__content {
+    flex-basis: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about__content {
+    flex-basis: 500px;
+  }
 }
 .about__text {
   font-family: "Comfortaa", cursive;
