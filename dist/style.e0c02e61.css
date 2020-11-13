@@ -241,7 +241,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .about__title {
-    font-size: 1.975rem;
+    font-size: 1.875rem;
     line-height: 2rem;
     margin-bottom: 3rem;
   }
@@ -276,8 +276,13 @@ body {
   height: 400px;
 }
 @media screen and (max-width: 767px) {
+  .about__img svg {
+    width: 430px;
+  }
+}
+@media screen and (max-width: 767px) {
   .about__content {
-    flex-basis: 480px;
+    flex-basis: 450px;
   }
 }
 @media screen and (min-width: 768px) {
