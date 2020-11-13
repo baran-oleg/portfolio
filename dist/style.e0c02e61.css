@@ -62,7 +62,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .header__title {
-    font-size: 1.875rem;
+    font-size: 1.675rem;
     line-height: 3.1875rem;
     margin-bottom: 1.5rem;
   }
@@ -89,7 +89,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .header__text {
-    font-size: 1.275rem;
+    font-size: 1.175rem;
     margin-bottom: 4rem;
   }
 }
@@ -238,6 +238,7 @@ body {
   font-family: "Comfortaa", cursive;
   font-weight: 500;
   color: #B2967D;
+  text-align: center;
 }
 @media screen and (max-width: 767px) {
   .about__title {
