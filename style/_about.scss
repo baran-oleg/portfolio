@@ -1,6 +1,4 @@
-$style: "about";
-
-.#{$style} {
+.about {
     width: 100%;
     padding: 5rem 1.5rem;
     background-color: $color1;
@@ -58,12 +56,8 @@ $style: "about";
         flex-basis: 450px;
 
         & svg {
-            width: 450px;
+            max-width: 100%;
             height: 400px;
-
-            @media screen and (max-width: 767px) {
-                width: 430px;
-            }
         }
 
     }
