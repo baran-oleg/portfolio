@@ -56,19 +56,53 @@ body {
 }
 .header__title {
   font-family: "Comfortaa", cursive;
-  font-size: 4.9375rem;
   line-height: 6.1875rem;
   color: #B2967D;
   letter-spacing: 0.125rem;
   margin-bottom: 2rem;
 }
+@media screen and (max-width: 767px) {
+  .header__title {
+    font-size: 1.875rem;
+    line-height: 3.1875rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header__title {
+    font-size: 3.4rem;
+    line-height: 4.1875rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header__title {
+    font-size: 4.7375rem;
+    line-height: 6.1875rem;
+  }
+}
 .header__text {
   font-family: "Comfortaa", cursive;
-  font-size: 2.875rem;
   line-height: 3.625rem;
   color: #E6BEAE;
   letter-spacing: 0.125rem;
   margin-bottom: 10rem;
+}
+@media screen and (max-width: 767px) {
+  .header__text {
+    font-size: 2.175rem;
+    margin-bottom: 10rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header__text {
+    font-size: 2.275rem;
+    margin-bottom: 10rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header__text {
+    font-size: 2.875rem;
+    margin-bottom: 10rem;
+  }
 }
 .header__svg {
   height: 1.5rem;
