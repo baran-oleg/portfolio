@@ -12,9 +12,10 @@
     &__container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        // justify-content: center;
         align-items: center;
-        align-content: center;
+        // align-content: center;
+        padding: 1rem;
     }
 
     &__title {
@@ -46,4 +47,10 @@
 
 
 
+}
+
+#slider {
+    @media screen and (max-width: 639px) {
+        max-width: 300px;
+    }
 }

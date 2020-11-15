@@ -339,9 +339,8 @@ body {
 .work__container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  align-content: center;
+  padding: 1rem;
 }
 .work__title {
   font-family: "Comfortaa", cursive;
@@ -367,6 +366,12 @@ body {
   .work__title {
     font-size: 2.875rem;
     line-height: 3.625rem;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #slider {
+    max-width: 300px;
   }
 }
 
